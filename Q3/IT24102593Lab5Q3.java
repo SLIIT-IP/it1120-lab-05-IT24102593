@@ -12,13 +12,13 @@ public class IT24102593Lab5Q3 {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter Start Date (1-31) : ");
+        System.out.print("Enter Start Date (1-31) : ");
         startDate = input.nextInt();
 
-        System.out.println("Enter End Date (1-31) : ");
+        System.out.print("Enter End Date (1-31) : ");
         endDate = input.nextInt();
 
-        if(startDate<1 || startDate>1231 || endDate<1 || endDate>31) {
+        if(startDate<1 || startDate>31 || endDate<1 || endDate>31) {
 
             System.out.println("Error: Days must be between 1 and 31");
             return;
