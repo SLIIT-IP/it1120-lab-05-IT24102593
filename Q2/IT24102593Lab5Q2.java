@@ -5,7 +5,7 @@ public class IT24102593Lab5Q2 {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter the number of new members : ");
+        System.out.print("Enter the number of new members : ");
         int newmembers = input.nextInt();
 
         switch (newmembers) {
